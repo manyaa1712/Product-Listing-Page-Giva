@@ -2,10 +2,10 @@ const { Pool } = require('pg'); // Import PostgreSQL client
 require('dotenv').config(); // Load environment variables
 
 const pool = new Pool({
-    user: 'postgres',
+    user: process.env.PGUSERNAME,
     host: process.env.PGHOST,
     database: process.env.PGDATABASE,
-    password: 'Manya1575', // It's better to use an environment variable
+    password: process.env.PGPASSWORD, // It's better to use an environment variable
     port: process.env.PGPORT,
 });
 
