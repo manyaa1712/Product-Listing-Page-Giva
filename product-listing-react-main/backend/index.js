@@ -11,14 +11,7 @@ app.use(cors());
 app.get('/', (req, res) => {
     res.send("Welcome to Listing Product Backend");
 });
-// Set up the PostgreSQL connection pool
-// const pool = new Pool({
-//     user: 'postgres',
-//     host: process.env.PGHOST,
-//     database: process.env.PGDATABASE,
-//     password: 'Manya1575',
-//     port: process.env.PGPORT,
-// });
+
 
 // // Test the connection
 // pool.connect()
