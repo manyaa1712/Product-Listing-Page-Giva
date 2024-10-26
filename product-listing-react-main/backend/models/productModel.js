@@ -1,5 +1,5 @@
 const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = new Sequelize('postgres://postgres:Manya1575@localhost:5432/Products', {
+const sequelize = new Sequelize('postgres://<username>:<your_password>@localhost:5432/<databasename>', {
   dialect: 'postgres',
 });
 
