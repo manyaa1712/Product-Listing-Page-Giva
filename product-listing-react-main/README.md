@@ -19,7 +19,7 @@ Welcome to the Product Listing React App! This is a full-stack web application b
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/vipullsingh/product-listing-react.git
+   git clone https://github.com/manyaa1712/Product-Listing-Page-Giva.git
    ```
 
 2. **Navigate to Client and Backend Folders:**
@@ -34,8 +34,14 @@ Welcome to the Product Listing React App! This is a full-stack web application b
 3. **Create a Dotenv file (.env) and Paste below code into it:**
 
     ```
-    PORT = 5000
-    MONGODB_URL = <place_your_MongoDB_URL>
+    PORT=5000
+   NODE_OPTIONS=--openssl-legacy-provider
+   PGUSER=<username>
+   PGHOST=localhost
+   PGDATABASE=<databasename>
+   PGPASSWORD=<ur_password>
+   PGPORT=5432
+   POSTGRES_URL=postgres://<username>:<ur_password>@localhost:5432/<databasename>
     ```
 
    This will install the required dependencies for both the frontend and backend.
