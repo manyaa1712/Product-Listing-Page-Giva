@@ -109,7 +109,7 @@ The project is organized into two main folders:
 
 - Frontend: React
 - Backend: Node.js, Express.js
-- Database: MongoDB
+- Database: Postgre SQL
 - HTTP Library: Axios
 - Routing: React Router
 - Styling: CSS
