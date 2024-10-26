@@ -1,7 +1,7 @@
 
 # Product Listing React App
 
-Welcome to the Product Listing React App! This is a full-stack web application built using the MERN stack (MongoDB, Express.js, React, and Node.js). This application allows you to manage and display a list of products with CRUD (Create, Read, Update, Delete) functionality.
+Welcome to the Product Listing React App! This is a full-stack web application built using the PERN stack (Postgre SQL, Express.js, React, and Node.js). This application allows you to manage and display a list of products with CRUD (Create, Read, Update, Delete) functionality.
 
 ## Table of Contents
 
